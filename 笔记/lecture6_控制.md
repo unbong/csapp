@@ -32,7 +32,7 @@
 
     * 读取条件码的指令
         * set指令
-            * ![set指令](/images/set指令.jpg)
+            * ![set指令](images/set指令.jpg)
             * 具体例子
             * ```
                 int gt (long x, long y)
@@ -87,4 +87,17 @@
             * 不会有副作用
 
     * 循环
-        
+        * do while
+            * go-to 版本
+
+        * while
+        * for
+            * for与while转换 
+
+    * switch语句
+        * 跳转表
+            * 将各个case作为索引，以跳转的目的地作为值的数组。
+            * ![switch跳转表](images/switch跳转表.jpeg)
+        * 使用的跳转为间接跳转
+            * jmp *  
+            
