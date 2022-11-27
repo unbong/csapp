@@ -1,5 +1,5 @@
 # 数据
-
+* [参考链接](http://doraemonzzz.com/2020/05/26/CMU%2015-213%20Intro%20to%20Computer%20Systems%20Lecture%208/#FP%E5%86%85%E5%AD%98%E5%BC%95%E7%94%A8) 
 * 数组
     * 数组分配
         * 基本原则
