@@ -8,7 +8,7 @@
 
     * 结构
         * 图示
-        * ![IEEE浮点数结构](/images/IEEE%E6%B5%AE%E7%82%B9%E6%95%B0%E7%BB%93%E6%9E%84.jpg)
+        * ![IEEE浮点数结构](images/IEEE浮点数结构.jpg)
     * 分类
         * 规范化的值
             * 当exp（阶码位）的位表示不全是0或1时。
