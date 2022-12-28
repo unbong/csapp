@@ -372,6 +372,9 @@
         ```
 
     * 同步流以避免竞争(race)
+
+        * 图示
+            * ![同步流的](images/同步流的经典处理流程.png)
         * 简单shell有轻微的同步错误，因为它假定父级运行在子级之前。
 
         * 示例
@@ -498,7 +501,7 @@
         * 解决方案：sigsuspend函数
             * int sigsuspend（const sigset_t * mask)
             * 该函数等价于下述代码的原子版本（不可中断）版本
-            ```
+            ```," e
             sigprocmask(SIG_BLOCK, &mask, &prev);
             pause();
             sigprocmask(SIG_SETMASK, &prev, NULL);
