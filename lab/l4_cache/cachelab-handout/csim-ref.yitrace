@@ -1,0 +1,8 @@
+L 10,1 miss                       1 0000
+M 20,1 miss hit                  10 0000
+L 22,1 hit                       10 0010
+S 18,1 hit                        1 1000
+L 110,1 miss                1  0001 0000
+L 210,1 miss eviction       10 0001 0000
+M 12,1 miss eviction hit          1 0010
+hits:4 misses:5 evictions:2
